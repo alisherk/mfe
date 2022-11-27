@@ -7,9 +7,9 @@ on:
    paths: #path indicates that we will only run where there is change in the container dir
      - 'packages/container/**'
 
-defaults: 
-  run: 
-    working-directory: packages/container #chnage into the container folder
+# defaults: 
+  #run: 
+   # working-directory: packages/container #chnage into the container folder
 
 jobs: 
   build: 
